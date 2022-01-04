@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-04T13:17:08 IST" name="Suite" finished-at="2022-01-04T13:17:49 IST" duration-ms="40502">
+    <groups>
+    </groups>
+    <test started-at="2022-01-04T13:17:08 IST" name="Test" finished-at="2022-01-04T13:17:49 IST" duration-ms="40502">
+      <class name="com.test.demoblaze.TestCasesExecution">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:08 IST" name="setUp" finished-at="2022-01-04T13:17:08 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="browserOpen()[pri:0, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:08 IST" name="browserOpen" finished-at="2022-01-04T13:17:17 IST" duration-ms="8739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method signature="signUpProcess()[pri:1, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:17 IST" name="signUpProcess" finished-at="2022-01-04T13:17:21 IST" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpProcess -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:21 IST" name="getResult" finished-at="2022-01-04T13:17:22 IST" duration-ms="557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpProcess status=SUCCESS method=TestCasesExecution.signUpProcess()[pri:1, instance:com.test.demoblaze.TestCasesExecution@1677d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="LoginProcess()[pri:2, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:22 IST" name="LoginProcess" finished-at="2022-01-04T13:17:23 IST" duration-ms="1236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginProcess -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:23 IST" name="getResult" finished-at="2022-01-04T13:17:23 IST" duration-ms="94" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginProcess status=SUCCESS method=TestCasesExecution.LoginProcess()[pri:2, instance:com.test.demoblaze.TestCasesExecution@1677d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="signOutProcess()[pri:3, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:23 IST" name="signOutProcess" finished-at="2022-01-04T13:17:29 IST" duration-ms="5954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutProcess -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:29 IST" name="getResult" finished-at="2022-01-04T13:17:29 IST" duration-ms="92" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signOutProcess status=SUCCESS method=TestCasesExecution.signOutProcess()[pri:3, instance:com.test.demoblaze.TestCasesExecution@1677d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="placeOrderRequest()[pri:4, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:29 IST" name="placeOrderRequest" finished-at="2022-01-04T13:17:48 IST" duration-ms="19412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrderRequest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:48 IST" name="getResult" finished-at="2022-01-04T13:17:48 IST" duration-ms="85" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrderRequest status=SUCCESS method=TestCasesExecution.placeOrderRequest()[pri:4, instance:com.test.demoblaze.TestCasesExecution@1677d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="closeBrowser()[pri:5, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:48 IST" name="closeBrowser" finished-at="2022-01-04T13:17:49 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.demoblaze.TestCasesExecution@1677d1]" started-at="2022-01-04T13:17:49 IST" name="getResult" finished-at="2022-01-04T13:17:49 IST" duration-ms="123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=closeBrowser status=SUCCESS method=TestCasesExecution.closeBrowser()[pri:5, instance:com.test.demoblaze.TestCasesExecution@1677d1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.test.demoblaze.TestCasesExecution -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
